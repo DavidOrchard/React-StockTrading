@@ -1,0 +1,19 @@
+.fufillmentOption {
+    display: flex
+}
+
+.button {
+    margin: 10px;
+    background-color: white;
+}
+
+.selected {
+    font-weight: bold;
+    animation: selectedAnim 1s;
+    background-color: blue
+}
+
+@keyframes selectedAnim {
+    from {background-color: white}
+    to {background-color: blue}
+}

@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Candlestick 1`] = `
+<g
+  aria-label="candle number 0"
+>
+  <rect
+    fill="#3366cc"
+    height="75"
+    stroke="none"
+    stroke-width="0"
+    width="2"
+    x="39"
+    y="40"
+  />
+  <rect
+    fill="#3366cc"
+    height="14"
+    stroke="#3366cc"
+    stroke-width="2"
+    width="40"
+    x="20"
+    y="82"
+  />
+</g>
+`;

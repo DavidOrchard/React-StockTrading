@@ -1,0 +1,23 @@
+/* animation */
+.fade-in-buy {
+    animation: fadeInBuy .2s;
+}
+
+/* transition */
+.fade-in-sell {
+    background-color: red;
+    transition: background-color 1s;
+}
+
+@keyframes fadeInBuy {
+    from {background-color: red}
+    to {background-color: green}
+}
+
+.buy {
+    background-color: green
+}
+
+.sell {
+    background-color: red
+}
